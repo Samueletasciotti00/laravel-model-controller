@@ -26,3 +26,7 @@ Route::get('/chi-siamo', function () {
 Route::get('/contatti', function () {
     return view('contacts');
 })->name('contacts');
+
+Route::get('/film', function () {
+    return view('movies');
+})->name('movies');
