@@ -9,3 +9,29 @@ body {
     background-size: cover;
     font-family: "Roboto", sans-serif;
 }
+
+// Cards of films
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cards .box{
+    width: 250px;
+    height: 350px;
+    background-color: lightblue;
+    border: 1px solid red;
+}
+
+.box h2,h4{
+    text-align: center;
+}
+
+h2{
+    color: tomato;
+}
+
+span{
+    color: #ffffff;
+}
